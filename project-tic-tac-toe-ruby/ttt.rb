@@ -10,9 +10,9 @@ class Board
 
   def initialize
     @board = [
-      ["1", "2", "3"],
-      ["4", "5", "6"],
-      ["7", "8", "9"]
+      ['1', '2', '3'],
+      ['4', '5', '6'],
+      ['7', '8', '9']
     ]
   end
 
@@ -20,7 +20,7 @@ class Board
     3.times do |row|
       3.times do |col|
         print @board[row][col]
-        print "|" unless col == 2
+        print '|' unless col == 2
       end
       puts "\n-----" unless row == 2
     end
@@ -81,7 +81,7 @@ class Board
   def tied?
     3.times do |row|
       3.times do |col|
-        if @board[row][col] != "X" && @board[row][col] != "O"
+        if @board[row][col] != 'X' && @board[row][col] != 'O'
           # If there is an unoccupied square, the game is not tied
           return false
         end
@@ -121,6 +121,7 @@ class Game
     @current_player = @player1
 
   end
+
   def game_loop
     # puts "#{p1}, enter number to choose square:"
     # @board.update_board(gets.chomp.to_i)
@@ -137,10 +138,10 @@ class Game
 
 
     until game_over do # Implement a loop in the Game class that runs until the game is won or tied.
-      puts "++++++++++++++++"
+      puts '++++++++++++++++'
       @board.display_board # In each iteration of the loop, display the current state of the board,
       puts
-      puts "++++++++++++++++"
+      puts '++++++++++++++++'
 
       puts "#{current_player.name}, enter number to choose square:"
       choice = gets.chomp.to_i
@@ -154,7 +155,7 @@ class Game
         puts "Game over, it's a tie."
         break
       end
-      @current_player = (@current_player == @player1) ? @player2 : @player1
+      @current_player = @current_player == @player1 ? @player2 : @player1
     end
 
 

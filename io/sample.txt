@@ -1,0 +1,9 @@
+
+
+Skim Alan Skorkin’s post about serialization.
+Some of the code examples are outdated, but this post still contains relevant information.
+If you want to follow along with the code examples, copy and paste them into your code editor and use word wrap.
+Read the Chapter on File I/O of the Bastard’s Book of Ruby.
+Note: the ruby gem “open-URI” referenced in this assignment has been updated since publishing this material.
+Calling open(filename) is deprecated as of Ruby 3.0+. The updated usage is now to call
+URI.open(filename) directly.
