@@ -14,6 +14,8 @@ require 'rest-client'
 #   file.write(RestClient.get(wiki_url))
 # end
 
-File.open("sample.txt").readlines.each do |line|
-  puts line
-end
+# count = 0
+# File.open(File.join(__dir__, "sample.txt")).readlines.each do |line|
+#   puts line + " " + count.to_s
+#   count += 1
+# end

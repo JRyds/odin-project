@@ -1,0 +1,28 @@
+
+  1 - Write a Ruby program that reads a text file and prints out the number of
+  lines, words, and characters in it.
+
+  2 - Write a Ruby program that reads a CSV file and prints out the average of the values in each column.
+
+  3 - Write a Ruby program that reads a HTML file and extracts all the links from it.
+  Print out the links and their corresponding text.
+
+  4 - Write a Ruby program that reads a JSON file and converts it to a Ruby hash.
+  Print out the keys and values of the hash.
+
+  5 - Write a Ruby program that reads a YAML file and converts it to a Ruby object.
+  Print out the attributes and methods of the object.
+
+  6 - Write a Ruby program that reads a XML file and parses it using Nokogiri.
+  Print out the names and values of all the elements in the XML document.
+
+  7 - Write a Ruby program that reads a log file and counts how many times each IP address appears in it.
+  Print out the IP addresses and their frequencies in descending order.
+
+  8 - Write a Ruby program that reads a binary file and prints out its hexadecimal representation.
+
+  9 - Write a Ruby program that reads an image file and applies some filters to it using RMagick.
+  Save the modified image to a new file.
+
+  10 - Write a Ruby program that reads a PDF file and extracts the text from it using
+  PDF::Reader. Print out the text or save it to a new file.
