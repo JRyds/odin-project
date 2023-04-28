@@ -1,0 +1,26 @@
+Create a Game class that initializes with a random code
+consisting of four colors from a set of six possible colors.
+
+Define a method get_guess that allows the user to input their guess of the secret code.
+
+Create a method provide_feedback that compares the user's guess
+to the secret code and provides feedback on how good the guess was.
+
+Set up a loop within the Game class that allows the user 12 turns to guess the secret code.
+
+If the user doesn't guess the code within 12 turns,
+the game is over and they lose. If the user does guess the code, the game is over and they win.
+
+Create a Player class that allows the user to choose whether
+they want to be the creator of the secret code or the guesser.
+
+If the user chooses to create the secret code, prompt them to enter their code.
+
+If the user chooses to guess the code, modify the Game class
+to have the computer guess randomly at first, and then use the feedback
+from previous guesses to improve its next guess.
+
+Implement a strategy for the computer that follows the rules of the game
+or modify the rules by providing additional information to the computer about each guess.
+
+Test the game thoroughly to ensure it functions as expected.
